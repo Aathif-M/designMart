@@ -1,0 +1,35 @@
+.navbar{
+  background-color: #000 !important;
+}
+
+.navbar .navbar-brand{
+  color:#fff;
+}
+.navbar .navbar-brand:hover{
+  color:#fff;
+}
+
+.navbar .navbar-nav li a{
+  color:#fff !important;
+}
+
+.navbar .nav-item .dropdown-menu .dropdown-item{
+  color:#fff !important;
+}
+
+.navbar .nav-item .dropdown-menu .dropdown-item:hover{
+  background-color:#f2f2f2;
+  color:#000 !important;
+}
+
+.navbar .nav-item .dropdown-menu{
+  background-color:#000 !important;
+}
+
+.navbar-toggler{
+  background-color:#fff !important;
+}
+
+.carousel{
+  margin-top:20px;
+}

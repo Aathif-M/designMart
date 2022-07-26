@@ -1,0 +1,373 @@
+/*================== Homepage + NavBar + Footer ================ */
+body {
+  overflow-x: hidden;
+  color: #616971;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+/*============= NAVIGATION =============*/
+.navbar-brand img{
+  height: 60px;
+  /* visibility: hidden; */
+}
+
+.navbar{
+  /* visibility: hidden !important; */
+  padding: 0;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 1.6px;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.3);
+  z-index: 1;
+  background-color: #cccccc!important;
+}
+
+.nav-item{
+  padding: 8px;
+}
+
+.nav-link{
+  color: #5b5555 !important;
+  transition: 0.2s;
+}
+
+.nav-link.active,
+.nav-link:hover{
+  color: #5e0000 !important;
+}
+
+.dropbtn {
+  background-color: #cccccc;
+  color: #5b5555;
+  border: none;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 1.6px;
+  padding: 8px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #cccccc;
+  min-width: 160px;
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover{
+  background-color: #ddd;
+}
+
+.dropdown-content a:hover{
+  color: #5e0000;
+}
+
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+
+/*============= CAROUSEL =============*/
+#carousel{
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.3);
+}
+
+.carousel-inner{
+  max-height: 500px !important;
+}
+
+
+/*---Change Carousel Transition Speed --*/
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active{
+  transition: transform 0.65s ease;
+}
+
+.btn-outline-secondary:hover{
+  background-color: #920000;
+  border-color: #920000;
+}
+/*-- Carousel Content --*/
+
+/*--homeimg--*/
+.card{
+  padding: auto;
+}
+
+#homeimg{
+  border: 1px solid #c7c1c1;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+
+/*===== FIXED BACKGROUND IMG =====*/
+.fixed{
+    background-image: url('img/wrapImg.jpg');
+    position: fixed;
+}
+
+.fixed-background {
+  padding: 160px 0px;
+  overflow: hidden; /*-- Correction for iOS --*/
+}
+
+.fixed-background .row{
+  background-color: rgba(0, 0, 0, 0.5);
+  font-weight:900;
+  color: #fff;
+}
+
+#defaultbtn{
+  background-color: #5e0000;
+  color: #fff;
+  border-color: #5e0000;
+}
+
+#defaultbtn:hover{
+  background-color: #920000;
+}
+
+#tc{
+  font-size: 20px;
+  color: #fff;
+  transition: 0.2s;
+}
+
+#tc:hover{
+  text-decoration: none;
+  color: #920000;
+}
+
+
+/*============= FOOTER =============*/
+
+footer{
+  background-color: #383838;
+  padding: 16px 32px 20px;
+}
+
+footer img{
+  height: 56px;
+  margin: 24px auto;
+}
+
+footer p, footer a{
+  color: white;
+  text-decoration: none;
+}
+
+ul.social{
+  list-style-type: none;
+  display: flex;
+  max-width: 256px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+ul.social li{
+  margin: 0 auto;
+}
+
+footer .svg-inline--fa{
+  font-size: 36.8px;
+  transition: 0.2s;
+}
+
+footer .svg-inline--fa:hover{
+  color: #920000;
+}
+
+/*-- Bootstrap Mobile Gutter Fix --*/
+.row, .container-fluid {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+/*-- Fixed Background Image --*/
+.fixed-background {
+  position: relative;
+  width: 100%;
+  z-index: 1000!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -999 !important;
+}
+.fixed {
+  z-index: -999!important;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  will-change: transform;
+}
+
+/*================== End of Homepage + NavBar + Footer ================ */
+
+
+
+/*================== Gallery ================ */
+
+
+/*================== Contact Us Page ================ */
+
+
+/*================== About Us Page  ================ */
+
+
+
+/*================== Login ================ */
+
+.login_failed_message{
+  padding-bottom: 0px;
+}
+
+
+/*================== Edit Account ================ */
+.account_top_row{
+  background-color: #cccccc;
+}
+
+/*================== Sign Up ================ */
+
+
+
+
+/*================== Admin Login ================ */
+.admin_login_body{
+  background-color: #e3e8e9;
+}
+
+#admin_login_form img{
+  width: 50%;
+  margin-left: 25%;
+}
+
+.copyright p{
+  font-size: 14px;
+  margin: -10px;
+  padding: 0px;
+}
+
+
+/*================== Dashboard ================ */
+#top_row{
+  background-color: #c5ced0;
+}
+
+#top_row img{
+  margin: auto;
+}
+
+.dash_nav{
+  background-color: #c5ced0;
+  padding: 0;
+}
+
+.dash_nav ul{
+  margin: 0px;
+
+}
+
+.dash_nav ul li{
+  list-style: none;
+  font-size: 25px;
+  margin: 5px 0px 5px;
+  text-align: left;
+}
+
+.dash_nav ul li a{
+  color: #181818;
+}
+
+.dash_nav ul li .active,
+.dash_nav ul li a:hover{
+  text-decoration: none;
+  color: #5e0000;
+}
+
+.second-row{
+  background-color: #383838;
+}
+
+.dash-tiles{
+  background-color: #d0a7a7;
+  padding: 20px 15px 15px;
+  /* box-shadow: 0px 0px 15px 3px #9c9c9c; */
+  border-left: 5px solid #800303;
+  color: #181818;
+  transition: 0.3s;
+}
+
+.dash-tiles:hover{
+  box-shadow: 2px 0px 13px 3px #6c6767;
+}
+
+
+/*================== add_product_1 ================ */
+.add_form{
+  background-color: #383838;
+  border: none;
+}
+
+
+/*================== edit_procuct_1 ================ */
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #cccccc;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+
+}
+
+td, th {
+  border: 1px solid #bbbbbb;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+
+/*================== delete_procuct_2 ================ */
+.pro-details ul{
+  margin: 0px;
+  padding: 0px;
+}
+
+.pro-details ul li{
+  list-style: none;
+  font-size: 25px;
+  margin: 5px 0px 5px;
+  text-align: left;
+}

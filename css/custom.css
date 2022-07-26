@@ -1,0 +1,26 @@
+/*my customized bootstrap parts or designs*/
+
+body{
+  /* background-color:#178ba6; */
+}
+/*overriding the settings or formats*/
+.btn-primary{
+  border-radius: 0 !important;
+  background-color: #aa00e6;
+  border-color:#aa00e6;
+  min-width: 150px;
+}
+
+.btn:hover{
+  background-color: #6e0793;
+  border-color:#6e0793;
+}
+
+.nuz-btn{
+  background-color:rgb(131, 13, 13) !important;
+  border:1px solid black;
+}
+
+.nuz-btn:hover{
+  background-color:red;
+}
